@@ -1,9 +1,12 @@
-/* @import "tailwindcss"; */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #3b82f6;
+  --color-secondary: #10b981;
+  --color-dark: #020617;
+}
 
 body {
-  background-color: #020617;
+  background-color: var(--color-dark);
   color: white;
 }
